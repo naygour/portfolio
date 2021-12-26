@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar">
+        <div class="logo">
+            <i class="fas fa-file-code"></i>
+        </div>
+        <div class="toggle">
+            <i class="fas fa-bars ouvrir"></i>
+            <i class="fas fa-times fermer"></i>
+        </div>
+        <ul class="menu">
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#diplome">Diplômes</a></li>
+            <li><a href="#language">Languages</a></li>
+            <li><a href="#overcome">Overcome</a></li>
+            <!--<li><button class="btn" onclick="window.location.href='#adapt'">Adapt</button></li>-->
+            <li><button class="btn btn-secondary" onclick="window.location.href='https://www.linkedin.com/in/théo-bruwaert-b9250b17a/'">
+              <i class="fab fa-linkedin"></i> Linkedin</button>
+            </li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="animation">
+    <h3>Théo</h3><h3 id="target"></h3>
+  </div>
+  
+  
+  <main>
+    <div class="profil" id="profil">
+      <div class="dummy-profil">
+      <h1>Profil</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus magni animi autem adipisci fugit! Id fugiat doloribus similique itaque inventore aperiam magni officia quibusdam libero, culpa dolor mollitia quam ex aut ipsam excepturi sed voluptate laudantium doloremque! Officiis, repellendus labore?</p><br/>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde quis quam, alias nobis ut voluptatum iste totam. Explicabo aliquid magnam iure incidunt dolor beatae laudantium quia qui dolore facilis maxime quae deleniti fuga eum dicta numquam, veniam ea obcaecati modi?</p>
+      </div>
+      <img src="/media/svg/profil.svg" alt="">
+
+    </div>
+
+    <div class="diplome" id="diplome">
+      <h1>Diplômes</h1>
+      <div class="dummy-diplome">
+        <img src="/media/svg/grown.svg" alt="">
+        <div>
+          <p>Avec ces quatres formations, mon apprentissage sur le développement web a su se fortifier et s'enrih-chir de nouvelles connaissances.</p>
+          <br/>
+          <details>
+            <summary>
+              <h2>Professionnelle – IUT Lens<br/><a class="date">2019-2020</a></h2>
+            </summary>
+            <p>Licence professionnelle métiers de l’informatique : Conception, développement et test de logiciels - développement informatique et outils collaboratifs.</p>
+          </details>
+          <details>
+            <summary>
+              <h2>LICENCE – Lille 1<br/><a class="date">2018-2019</a></h2>
+            </summary>
+            <p>Licence SESI (Sciences Exactes et Sciences pour l’ingénieur) option Informatique.</p>
+          </details>
+          <details>
+            <summary>
+              <h2>BREVET TECHNICIEN SUPÉRIEUR – Lycée Guy Mollet<br/><a class="date">2016-2018</a></h2>
+            </summary>
+            <p>BTS SIO (Services informatiques aux organisations) option SLAM, avec une certification en mathématiques algorithmiques.</p>
+          </details>
+          <details>
+            <summary>
+              <h2>BACCALAURÉAT – Lycée Albert Châtelet<br/><a class="date">2014-2016</a></h2>
+            </summary>
+            <p>Baccalauréat <abbr title="Science Technologique de l'Industrie et du Développement Durable"> STI2D</abbr> option SIN (Système information numérique) mention Bien.</p>
+          </details>
+        </div>
+    </div>
+
+    <!-- Swiper -->
+  <div class="language" id="language">
+    <div class="dummy-language">
+      <h1>Languages</h1>
+        <p> Durant mes années scolaires et mes différents stages, j'ai pu apprendre de nombreux languages. Ces languages m'ont permis de me diversifier 
+          et de voir de nombreux aspect du développement tel que la conception de base de données, de la conception d'application web ou mobile mais 
+          aussi de gérer des données existantes.  
+        </p><br/>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="/assets/img/html.png" />
+        </div>
+        <div class="swiper-slide">
+        <img src="/assets/img/css.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/js.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/php.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/mysql.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/java.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/python.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/assets/img/sap_abap.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+    
+    <div class="overcome" id="overcome">
+      <h1>Overcome</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, id dolorum. Quo saepe deleniti excepturi inventore sapiente, quos, facilis qui tempore quam fugit eius itaque repellendus impedit praesentium delectus vero. Culpa magni expedita quis fugit! Corporis voluptatum accusantium recusandae, distinctio voluptas hic quis temporibus non assumenda doloribus modi consequatur harum maxime optio nesciunt accusamus totam magni inventore. Facilis quos at earum eius perferendis quas optio nulla hic impedit necessitatibus numquam illo sed error harum, corporis suscipit obcaecati laborum minima vel quod. Aperiam magnam error, libero pariatur dolor inventore vel sed minima, nam officiis ut reiciendis eaque omnis deserunt nulla voluptatibus? Aperiam assumenda amet unde praesentium est quos suscipit eum ab accusantium itaque placeat beatae ea, perspiciatis, provident adipisci dolorum corrupti earum numquam libero. Debitis velit veritatis facere magnam?</p>
+      <img src="/media/svg/1.svg" alt="">
+    </div>
+
+  </main>
+
+  <script src="./assets/jquery.min.js" type="text/javascript" ></script>
+  <script src="./assets/bootstrap.js" type="text/javascript" ></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./script.js" type="text/javascript" ></script>
+</body>
+
+
+
+</html>
