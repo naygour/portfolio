@@ -68,14 +68,15 @@
   .dummy-diplome {
     display: flex;
   }
-  .overcome {
+  .why {
     padding: 2rem;
     background: rgba(255, 66, 52, 0.287);
   }
-  .overcome h1 {
+  .why h1 {
     text-align: center;
+    padding: 2rem;
   }
-  .overcome img {
+  .why img {
     width: 50%;
     display: block;
     margin-left: auto;
@@ -95,7 +96,17 @@
   .dummy-language {
     padding: 2rem 2rem 2rem 0;
   }
-  
+  .copyright{
+    padding: 2rem; 
+    text-align: center;
+  }
+  .citation{
+    font-weight: bold;
+    font-style: italic;
+  }
+  .download{
+    text-align: center;
+  }
   @media screen and (min-width: 1000px) {
     main {
       width: 75%;
@@ -120,6 +131,11 @@ html{
 body {
   font-family: 'Montserrat Alternates', sans-serif;
   background: #F7F3E9;
+}
+
+footer{
+  background-color: white;
+  border-radius: 50px 50px 0 0;
 }
 /*========================= NAVBAR ======================*/
 header {
@@ -165,9 +181,11 @@ nav {
 .btn {
   border: 0;
   background: #E14548;
+  color:#F7F3E9;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .btn.btn-secondary {
