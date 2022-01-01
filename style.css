@@ -37,6 +37,7 @@
   }
   p {
     text-align: justify;
+    padding: 2rem;
   }
   p::first-letter {
     font-size: 1.5rem;
@@ -95,6 +96,31 @@
   }
   .dummy-language {
     padding: 2rem 2rem 2rem 0;
+  }
+  .box-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .project h1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  .project h3{
+    text-align: center;
+    padding: 2rem;
+    color: #E14548;
+    font-size: 1.3rem;
+    font-weight: lighter;
+  }
+  .project img{
+    width: 50%;
+  }
+  .box{
+    text-align: center;
+    padding: 2rem;
   }
   .copyright{
     padding: 2rem; 
@@ -170,7 +196,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  width: 550px;
+  width: 750px;
 }
 
 .menu li a {
