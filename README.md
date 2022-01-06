@@ -1,14 +1,13 @@
-### Fichier de base pour commencer un mini-projet 
+### Fichier portfolio 
+
+Voici mon cursus scolaire avec mes différentes expériences, pour en savoir plus contacter moi sur linkedIn.
+
+Toujours disponible pour de nouvelles missions.
 
 Avec : 
-* des photos randoms
-* une navbar toute faite
-* un body tout fait
-* des sons
+* des photos et video
+* une navbar faite sur mesure
+* un body simple et design
 * des svg
-* jQuery et Bootstrap reliés
-
-#### Démarrer projet avec Sass 
-* `npm run sass`
 
 browser-sync start --proxy localhost/***  --files '**/*' --no-notify

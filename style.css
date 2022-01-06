@@ -60,7 +60,7 @@
   }
   .diplome h1 {
     text-align: right;
-    padding-right: 17%;
+    padding-right: 25%;
   }
   .diplome img {
     width: 40%;
@@ -71,6 +71,7 @@
   }
   .why {
     padding: 2rem;
+    margin: 2rem;
     background: rgba(255, 66, 52, 0.287);
   }
   .why h1 {
@@ -116,7 +117,8 @@
     font-weight: lighter;
   }
   .project img{
-    width: 50%;
+    height: 30%;
+    width: 30%;
   }
   .box{
     text-align: center;
@@ -162,6 +164,7 @@ body {
 footer{
   background-color: white;
   border-radius: 50px 50px 0 0;
+  box-shadow: 20px 10px 5px rgb(182, 182, 182);
 }
 /*========================= NAVBAR ======================*/
 header {
@@ -347,5 +350,3 @@ nav {
   display: block;
   width: 100%;
 }
-
-/*# sourceMappingURL=style.css.map */
